@@ -7,6 +7,10 @@ body {
     font-family: monospace;
 }
 
+main {
+    padding: 16px;
+}
+
 .title {
     font-size: 64px;
     color: #48A300;
@@ -28,4 +32,33 @@ body {
 
 .subtitle {
     font-size: 32px;
+}
+
+.progress-label {
+    margin-top: 24px;
+    font-size: 14px;
+    color: #858585;
+}
+
+.progress-bar {
+    height: 30px;
+    background-color: #8aba9d;
+    border-radius: 15px;
+    margin-top: 24px;
+}
+.progress-value {
+    height: 100%;
+    width: 30%;
+    background-color: #48A300;
+    border-radius: 15px;
+    margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 32px;
+    }
+    .app-container {
+        padding: 16px 32px;
+    }
 }
