@@ -48,7 +48,7 @@ main {
 }
 .progress-value {
     height: 100%;
-    width: 30%;
+    width: 0%;
     background-color: #48A300;
     border-radius: 15px;
     margin-top: 24px;
@@ -107,11 +107,18 @@ main {
 
 }
 
+.dekhabo {
+    display: none;
+}
+
 .error-label {
     font-size: 14px;
-    margin-block: 18px;
+    /* margin-block: 18px; */
+    margin-top: -20px;
     color: red;
     /* margin-bottom: 0px; */
+    display: none;
+    position: absolute;
 }
 
 .completed .custom-checkbox {
@@ -124,6 +131,20 @@ main {
     text-decoration-line: line-through;
 }
 
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 24px;
+}
+
+.btn-box button {
+    padding: 6px 16px;
+    border-radius: 17px;
+    background-color: #8aba9d;
+    border: none;
+    font-size: 16px;
+}
 @media (max-width: 768px) {
     .title {
         font-size: 32px;
