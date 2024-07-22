@@ -67,7 +67,7 @@ main {
     display: flex;
     align-items: center;
     padding: 0 22px;
-    /* margin-bottom: 42px; */
+    margin-bottom: 42px;
 }
 
 .custom-checkbox {
